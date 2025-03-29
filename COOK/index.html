@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recettes de Cuisine Française</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Recettes de Cuisine Française</h1>
+        <p>Découvrez des recettes traditionnelles françaises</p>
+    </header>
+
+    <section class="recipes">
+        <article class="recipe">
+            <h2>Ratatouille</h2>
+            <button onclick="toggleRecipe('ratatouille')">Voir la recette</button>
+            <div class="recipe-details" id="ratatouille">
+                <h3>Ingrédients:</h3>
+                <ul>
+                    <li>Courgettes</li>
+                    <li>Aubergines</li>
+                    <li>Poivrons</li>
+                    <li>Tomates</li>
+                    <li>Herbes de Provence</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <p>Couper les légumes en morceaux et les faire cuire dans une poêle avec de l'huile d'olive et des herbes.</p>
+            </div>
+        </article>
+
+        <article class="recipe">
+            <h2>Crêpes</h2>
+            <button onclick="toggleRecipe('crepes')">Voir la recette</button>
+            <div class="recipe-details" id="crepes">
+                <h3>Ingrédients:</h3>
+                <ul>
+                    <li>Farine</li>
+                    <li>Œufs</li>
+                    <li>Lait</li>
+                    <li>Beurre fondu</li>
+                    <li>Sucre</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <p>Mélanger tous les ingrédients pour obtenir une pâte lisse. Cuire dans une poêle chaude légèrement beurrée.</p>
+            </div>
+        </article>
+
+        <article class="recipe">
+            <h2>Quiche Lorraine</h2>
+            <button onclick="toggleRecipe('quiche')">Voir la recette</button>
+            <div class="recipe-details" id="quiche">
+                <h3>Ingrédients:</h3>
+                <ul>
+                    <li>Pâte brisée</li>
+                    <li>Crème fraîche</li>
+                    <li>Œufs</li>
+                    <li>Bacon</li>
+                    <li>Fromage râpé</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <p>Faire cuire le bacon, puis mélanger avec les œufs et la crème. Verser sur la pâte et cuire au four.</p>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Recettes de Cuisine Française</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
